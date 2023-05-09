@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/notes/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "content": "El contenido ha sido modificado",
+    "date": "2023-05-06T17:30:31.098Z",
+    "important": "false"
+}
